@@ -1,0 +1,17 @@
+{
+    "name": "tst-framework",
+    "version": "1.0.0",
+    "description": "The framework that The Story Teller uses",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "engines": {
+        "node": "8.4.0"
+    },
+    "dependencies": {
+        "discord.js": "latest"
+    },
+    "author": "ImagineCorp"
+}
