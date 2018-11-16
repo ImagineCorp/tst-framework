@@ -1,5 +1,6 @@
 //IMPORTANT: RENAME THIS FILE TO config.json BEFORE USING THE FRAMEWORK, DO NOT MODIFY THIS FILE UNLESS ABSOLUTELY NECESSARY
 {
+    "prefix": "-",
     "token": "the_bots_token",
     "owners": [
         "id1",
