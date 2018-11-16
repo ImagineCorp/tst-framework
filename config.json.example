@@ -1,0 +1,8 @@
+//IMPORTANT: RENAME THIS FILE TO config.json BEFORE USING THE FRAMEWORK, DO NOT MODIFY THIS FILE UNLESS ABSOLUTELY NECESSARY
+{
+    "token": "the_bots_token",
+    "owners": [
+        "id1",
+        "id2"
+    ]
+}
