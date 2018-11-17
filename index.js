@@ -1,10 +1,10 @@
-const Discord = require('discord.js')
-const client = new Discord.Client()
-const config = require('./config.json')
+const { Client }     = require('discord.js')
+const client         = new Client()
+const config         = require('./config.json')
 const commandHandler = require('./src/commandHandler.js')
 
 client.on('ready', () => {
-    console.log(`Hello world! ${client.guilds.size} servers`)
+    console.log(`Hello world! ${client.guilds.size} servers`);
     client.user.setPresence({game: {name: `stories | -help`, type: 'PLAYING'}})
 })
 
